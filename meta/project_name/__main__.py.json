@@ -1,0 +1,4 @@
+{
+  "pipeline": ["path", "template"],
+  "path": "$project_name/__main__.py"
+}
