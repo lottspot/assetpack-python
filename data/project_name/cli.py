@@ -2,7 +2,7 @@ import os
 import sys
 
 def die(msg):
-    emsg = '{}: fatal: {}'.format(
+    emsg = '{}: {}'.format(
         os.path.basename(sys.argv[0]),
         msg
     )
